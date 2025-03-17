@@ -14,6 +14,7 @@ This repository is the official implementation of the paper: DC-SAM: In-Context 
 
 ## News
 
+**[2025/03/17]** The validation set for IC-VOS is now released. Enjoy exploring and working with it!
 **[2025/02/08]** The code and dataset for Image-to-image / Image-to-video In-Context Learning is released. Enjoy it:)
 
 ## Highlights
