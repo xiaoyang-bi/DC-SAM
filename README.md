@@ -10,6 +10,7 @@ This repository is the official implementation of the paper: DC-SAM: In-Context 
 * [Highlights](#highlights)
 * [Getting Started](#getting-started)
 * [Training & Evaluation](#training--evaluation)
+* [Citation](#citation)
 * [License](#license)
 
 ## News
