@@ -27,8 +27,8 @@ class DC_SAM2(nn.Module):
             self.sam2.print_trainable_parameters()
         else:
             self.sam2.requires_grad_(False)
-            # self.sam2.memory_encoder.requires_grad_(True)
-            # self.sam2.memory_attention.requires_grad_(True)
+            self.sam2.memory_encoder.requires_grad_(True)
+            self.sam2.memory_attention.requires_grad_(True)
             
             self.sam2.sam_mask_decoder.requires_grad_(True)
             self.sam2.sam_mask_decoder.pred_obj_score_head.requires_grad_(False)
