@@ -114,7 +114,7 @@ python3 -m torch.distributed.launch --nproc_per_node=4 --master_port=6224 train_
 
 Train on video (pretrain or finetune of image-to-video):
 ```
-python3 -m torch.distributed.launch --nproc_per_node=4 --master_port=6224 train_image.py --epochs 40/10 --benchmark coco_mask_tube --lr 1e-4/1e-5 --bsz 8/1 --nshot 1 \
+python3 -m torch.distributed.launch --nproc_per_node=4 --master_port=6224 train_video.py --epochs 40/10 --benchmark coco_mask_tube --lr 1e-4/1e-5 --bsz 8/1 --nshot 1 \
    --num_query 25 --data_type image/video --sam_version 2 --nworker 8 --backbone resnet50 --logpath log_name
 ```
 
