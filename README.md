@@ -2,7 +2,7 @@
 
 This repository is the official implementation of the paper: DC-SAM: In-Context Segment Anything in Images and Videos via Dual Consistency.
 
-**Authors**: Mengshi Qi, Pengfei Zhu, Huadong Ma, Lu Qi, Xiangtai Li, Ming-Hsuan Yang
+**Authors**: Mengshi Qi, Pengfei Zhu, Xiangtai Li, Xiaoyang Bi, Lu Qi, Huadong Ma, Ming-Hsuan Yang
 
 ## Table of Contents
 
