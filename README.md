@@ -4,6 +4,9 @@ This repository is the official implementation of the paper: DC-SAM: In-Context 
 
 **Authors**: Mengshi Qi, Pengfei Zhu, Xiangtai Li, Xiaoyang Bi, Lu Qi, Huadong Ma, Ming-Hsuan Yang
 
+[![arXiv](https://img.shields.io/badge/arXiv-2504.12080-b31b1b.svg)](https://arxiv.org/abs/2504.12080) 
+[![Hugging Face Paper](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Paper-yellow)](https://huggingface.co/papers/2504.12080)
+
 ## Table of Contents
 
 * [News](#news)
@@ -62,11 +65,11 @@ Download following datasets:
 > wget http://images.cocodataset.org/zips/val2014.zip
 > wget http://images.cocodataset.org/annotations/annotations_trainval2014.zip
 > ```
-> Download COCO2014 train/val annotations from Google Drive: [[train2014.zip](https://drive.google.com/file/d/1cwup51kcr4m7v9jO14ArpxKMA4O3-Uge/view?usp=sharing)], [[val2014.zip](https://drive.google.com/file/d/1PNw4U3T2MhzAEBWGGgceXvYU3cZ7mJL1/view?usp=sharing)].
+> Download COCO2014 train/val annotations. train2014.zip [[Google Drive](https://drive.google.com/file/d/1cwup51kcr4m7v9jO14ArpxKMA4O3-Uge/view?usp=sharing)], [[val2014.zip](https://drive.google.com/file/d/1PNw4U3T2MhzAEBWGGgceXvYU3cZ7mJL1/view?usp=sharing)].
 > (and locate both train2014/ and val2014/ under annotations/ directory).
 
 #### 3. IC-VOS
-Download our proposed IC-VOS validation set from [[Baidu Netdisk](https://pan.baidu.com/s/1Rjtqc1LLozLPar0t8m9qHQ?pwd=i8af)]
+Download our proposed IC-VOS validation set from [[Baidu Netdisk](https://pan.baidu.com/s/1Rjtqc1LLozLPar0t8m9qHQ?pwd=i8af)]/[[HuggingFace dataset](https://huggingface.co/datasets/zaplm/IC-VOS)]. (COCO2014 train/val annotations and PASCAL VOC2012 SDS extended mask annotations can also be accessed via our [[HuggingFace dataset](https://huggingface.co/datasets/zaplm/IC-VOS)])
 
 
 Create a directory '../dataset' for the above few-shot segmentation datasets and appropriately place each dataset to have following directory structure:
@@ -134,7 +137,7 @@ python eval_iamge.py --datapath /path/to/benchmark --benchmark pascal/coco --fol
 ## Citation
 
 ```
-@article{qi2025dcsam,
+@article{qi2025dc,
   title={DC-SAM: In-Context Segment Anything in Images and Videos via Dual Consistency},
   author={Qi, Mengshi and Zhu, Pengfei and Ma, Huadong and Qi, Lu and Li, Xiangtai and Yang, Ming-Hsuan},
   journal={arXiv preprint arXiv:2504.12080},
