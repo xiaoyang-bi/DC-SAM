@@ -1,11 +1,15 @@
-# DC-SAM: In-Context Segment Anything in Images and Videos via Dual Consistency
-
+<div align=center>
+ <h1> DC-SAM: In-Context Segment Anything in Images and Videos via Dual Consistency </h1>
+</div>
 This repository is the official implementation of the paper: DC-SAM: In-Context Segment Anything in Images and Videos via Dual Consistency.
 
-**Authors**: Mengshi Qi, Pengfei Zhu, Xiangtai Li, Xiaoyang Bi, Lu Qi, Huadong Ma, Ming-Hsuan Yang
+**Authors**: [Mengshi Qi](https://jueduilingdu.github.io/), [Pengfei Zhu](https://scholar.google.com/citations?user=WANrgGwAAAAJ&hl=zh-CN), [Xiangtai Li](https://lxtgh.github.io/), Xiaoyang Bi, [Lu Qi](http://luqi.info/), [Huadong Ma](https://scholar.google.com/citations?user=A-vcjvUAAAAJ&hl=zh-CN), [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/)
 
+<div align=center>
+    
 [![arXiv](https://img.shields.io/badge/arXiv-2504.12080-b31b1b.svg)](https://arxiv.org/abs/2504.12080) 
 [![Hugging Face Paper](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Paper-yellow)](https://huggingface.co/papers/2504.12080)
+</div>
 
 ## Table of Contents
 
