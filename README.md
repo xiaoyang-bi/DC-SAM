@@ -66,7 +66,7 @@ We establish a rigorous benchmark for **In-Context Video Object Segmentation (IC
 
 ## Results
 
-**DC-SAM** significantly outperforms existing in-context learners and SAM-based variants by maintaining superior consistency across the spatial and temporal domains.
+**DC-SAM** significantly outperforms existing in-context learners and SAM-based variants by maintaining superior consistency.
 
 <img src="resources/res.png" width="100%"/>
 
