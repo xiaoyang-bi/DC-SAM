@@ -1,32 +1,53 @@
-<div align=center>
- <h1> DC-SAM: In-Context Segment Anything in Images and Videos via Dual Consistency </h1>
- <img src="resources/overview.png" width="80%"/>
- <div align=center>  
- [![arXiv](https://img.shields.io/badge/arXiv-2504.12080-b31b1b.svg)](https://arxiv.org/abs/2504.12080) 
- [![Hugging Face Paper](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Paper-yellow)](https://huggingface.co/papers/2504.12080)
-  </div>
+<div align="center">
+<h1>DC-SAM: In-Context Segment Anything in Images and Videos via Dual Consistency</h1>
+
+<img src="resources/overview.png" width="80%"/>
+<br />
+
+[![arXiv](https://img.shields.io/badge/arXiv-2504.12080-b31b1b.svg)](https://arxiv.org/abs/2504.12080) 
+[![Hugging Face Paper](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Paper-yellow)](https://huggingface.co/papers/2504.12080)
+[![TPAMI](https://img.shields.io/badge/Journal-IEEE_TPAMI-blue.svg)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)
+
+<div>
+    <a href="https://jueduilingdu.github.io/" target="_blank">Mengshi Qi</a><sup>1</sup>, 
+    <a href="https://scholar.google.com/citations?user=WANrgGwAAAAJ" target="_blank">Pengfei Zhu</a><sup>1</sup>, 
+    <a href="https://lxtgh.github.io/" target="_blank">Xiangtai Li</a><sup>2</sup>, 
+    Xiaoyang Bi<sup>1</sup>, 
+    <a href="http://luqi.info/" target="_blank">Lu Qi</a><sup>3</sup>, 
+    <a href="https://scholar.google.com/citations?user=A-vcjvUAAAAJ" target="_blank">Huadong Ma</a><sup>1</sup>, 
+    <a href="https://faculty.ucmerced.edu/mhyang/" target="_blank">Ming-Hsuan Yang</a><sup>3</sup>
 </div>
 
-**Authors**: [Mengshi Qi](https://jueduilingdu.github.io/), [Pengfei Zhu](https://scholar.google.com/citations?user=WANrgGwAAAAJ&hl=zh-CN), [Xiangtai Li](https://lxtgh.github.io/), Xiaoyang Bi, [Lu Qi](http://luqi.info/), [Huadong Ma](https://scholar.google.com/citations?user=A-vcjvUAAAAJ&hl=zh-CN), [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/)
+<div>
+    <sup>1</sup>State Key Laboratory of Networking and Switching Technology, Beijing University of Posts and Telecommunications<br />
+    <sup>2</sup>Nanyang Technological University, Singapore&emsp;
+    <sup>3</sup>University of California, Merced
+</div>
 
-This repository is the official implementation of the paper: DC-SAM: In-Context Segment Anything in Images and Videos via Dual Consistency.
+<p align="justify">
+    <i>This repository provides the official IEEE TPAMI implementation of <b>DC-SAM</b>. We propose a novel dual-consistency framework to enable Segment Anything Models (SAM) to perform in-context segmentation across both images and videos. By enforcing spatial and temporal consistency, DC-SAM achieves superior generalization for zero-shot and interactive segmentation tasks without requiring extensive per-scene fine-tuning.</i>
+</p>
 
+</div>
 
 ## Table of Contents
 
 * [News](#news)
 * [Highlights](#highlights)
+* [Benchmark](#highlights)
+* [Results](#highlights)
 * [Getting Started](#getting-started)
 * [Training & Evaluation](#training--evaluation)
 * [Citation](#citation)
 * [License](#license)
 
 ## News
-**[2025/03/17]** Our Paper is accepted by IEEE TPAMI!
+**[2025/12/17]** Our Paper is accepted by IEEE TPAMI!
 
 **[2025/03/17]** The validation set for IC-VOS is now released. Enjoy exploring and working with it!
 
 **[2025/02/08]** The code and dataset for Image-to-image / Image-to-video In-Context Learning is released. Enjoy it:)
+
 
 ## Highlights
 
@@ -34,6 +55,21 @@ This repository is the official implementation of the paper: DC-SAM: In-Context 
 * **Query cyclic-consistent cross-attention mechanism**: Ensures precise focus on key areas, effectively filtering out confusing components and improving accuracy and specificity in one-shot segmentation.
 * **New video in-context segmentation benchmark (IC-VOS)**: Introduces a manually collected benchmark from existing video datasets, providing a robust platform for evaluating state-of-the-art methods.
 * **Extension to SAM2 with mask tube design**: Enhances prompt generation for video object segmentation, achieving strong performance on the proposed IC-VOS benchmark.
+
+## 📊 Benchmark
+
+We establish a rigorous benchmark for **In-Context Video Object Segmentation (IC-VOS)** by adapting several classic datasets into the in-context paradigm. In this setting, the model must segment the target object in a query video based on a provided *reference frame + mask* pair.
+
+<img src="resources/bench.png" width="100%"/>
+
+---
+
+## 📈 Results
+
+**DC-SAM** significantly outperforms existing in-context learners and SAM-based variants by maintaining superior consistency across the spatial and temporal domains.
+
+<img src="resources/res.png" width="100%"/>
+
 
 ## Getting Started
 
