@@ -56,7 +56,7 @@
 * **New video in-context segmentation benchmark (IC-VOS)**: Introduces a manually collected benchmark from existing video datasets, providing a robust platform for evaluating state-of-the-art methods.
 * **Extension to SAM2 with mask tube design**: Enhances prompt generation for video object segmentation, achieving strong performance on the proposed IC-VOS benchmark.
 
-## 📊 Benchmark
+## Benchmark
 
 We establish a rigorous benchmark for **In-Context Video Object Segmentation (IC-VOS)** by adapting several classic datasets into the in-context paradigm. In this setting, the model must segment the target object in a query video based on a provided *reference frame + mask* pair.
 
@@ -64,7 +64,7 @@ We establish a rigorous benchmark for **In-Context Video Object Segmentation (IC
 
 ---
 
-## 📈 Results
+## Results
 
 **DC-SAM** significantly outperforms existing in-context learners and SAM-based variants by maintaining superior consistency across the spatial and temporal domains.
 
