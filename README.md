@@ -1,15 +1,16 @@
 <div align=center>
  <h1> DC-SAM: In-Context Segment Anything in Images and Videos via Dual Consistency </h1>
+ <img src="resources/overview.png" width="80%"/>
+ <div align=center>  
+ [![arXiv](https://img.shields.io/badge/arXiv-2504.12080-b31b1b.svg)](https://arxiv.org/abs/2504.12080) 
+ [![Hugging Face Paper](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Paper-yellow)](https://huggingface.co/papers/2504.12080)
+  </div>
 </div>
-This repository is the official implementation of the paper: DC-SAM: In-Context Segment Anything in Images and Videos via Dual Consistency.
 
 **Authors**: [Mengshi Qi](https://jueduilingdu.github.io/), [Pengfei Zhu](https://scholar.google.com/citations?user=WANrgGwAAAAJ&hl=zh-CN), [Xiangtai Li](https://lxtgh.github.io/), Xiaoyang Bi, [Lu Qi](http://luqi.info/), [Huadong Ma](https://scholar.google.com/citations?user=A-vcjvUAAAAJ&hl=zh-CN), [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/)
 
-<div align=center>
-    
-[![arXiv](https://img.shields.io/badge/arXiv-2504.12080-b31b1b.svg)](https://arxiv.org/abs/2504.12080) 
-[![Hugging Face Paper](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Paper-yellow)](https://huggingface.co/papers/2504.12080)
-</div>
+This repository is the official implementation of the paper: DC-SAM: In-Context Segment Anything in Images and Videos via Dual Consistency.
+
 
 ## Table of Contents
 
@@ -21,6 +22,7 @@ This repository is the official implementation of the paper: DC-SAM: In-Context 
 * [License](#license)
 
 ## News
+**[2025/03/17]** Our Paper is accepted by IEEE TPAMI!
 
 **[2025/03/17]** The validation set for IC-VOS is now released. Enjoy exploring and working with it!
 
