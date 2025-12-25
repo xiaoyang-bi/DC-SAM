@@ -34,8 +34,8 @@
 
 * [News](#news)
 * [Highlights](#highlights)
-* [Benchmark](#highlights)
-* [Results](#highlights)
+* [Benchmark](#benchmark)
+* [Results](#results)
 * [Getting Started](#getting-started)
 * [Training & Evaluation](#training--evaluation)
 * [Citation](#citation)
