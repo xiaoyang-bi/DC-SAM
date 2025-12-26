@@ -100,6 +100,7 @@ def main():
     f_buf = torch.zeros(len(dataset))
     pred_name = []
 
+    model.eval()
     with torch.inference_mode():
         for batch in tqdm(dataloader_test):
             batch = utils.to_cuda(batch)
